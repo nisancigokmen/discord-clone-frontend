@@ -1,0 +1,635 @@
+body {
+    margin: 0px;
+    border: 0px;
+    background-color: #2d3035;
+}
+
+#dcUi {
+    display: flex;
+}
+
+#userUi {
+    width: 5em;
+    background-color: #292b30;
+    border-radius: 0.25em;
+    position: fixed;
+}
+
+#userLıst {
+    position: fixed;
+}
+
+#userUi button {
+    border-radius: 3em;
+    width: 4em;
+    height: 4em;
+    display: block;
+    margin-top: 1.2em;
+    margin-left: 0.35em;
+}
+
+#userUi button:hover {
+    border-radius: 1.5em;
+}
+
+#userUi a {
+    text-decoration: none;
+}
+
+#userUi #dcBtn {
+    border-radius: 1.5em;
+    background-color: #194fff;
+    border: 2px solid #194fff;
+}
+
+
+/*group style */
+
+#userUi #grp1 {
+    background-color: rgb(255, 199, 199);
+    border: 2px solid rgb(255, 199, 199);
+    opacity: 0.8;
+    color: #000000;
+}
+
+#userUi #grp1:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp2 {
+    background-color: #ff1818;
+    border: 2px solid #ff1818;
+    opacity: 0.8;
+}
+
+#userUi #grp2:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp3 {
+    background-color: #64649c;
+    border: 2px solid #64649c;
+    opacity: 0.8;
+}
+
+#userUi #grp3:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp4 {
+    background-color: #c201c2;
+    border: 2px solid #c201c2;
+    opacity: 0.8;
+}
+
+#userUi #grp4:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp5 {
+    background-color: #60f86c;
+    border: 2px solid #60f86c;
+    opacity: 0.8;
+}
+
+#userUi #grp5:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp6 {
+    background-color: #e9f860;
+    border: 2px solid #e9f860;
+    opacity: 0.8;
+}
+
+#userUi #grp6:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp7 {
+    background-color: #343d4d;
+    border: 2px solid #343d4d;
+    opacity: 0.8;
+    color: #fff;
+}
+
+#userUi #grp7:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #grp8 {
+    background-color: #2eeca3;
+    border: 2px solid #2eeca3;
+    opacity: 0.8;
+}
+
+#userUi #grp8:hover {
+    opacity: 1;
+}
+
+
+/*-------*/
+
+#userUi #addServer {
+    background-color: #41414e;
+    border: 2px solid #35353b;
+}
+
+#userUi #addServer:hover {
+    background-color: #35b640;
+}
+
+
+/*-------*/
+
+#userUi #openServer {
+    background-color: #41414e;
+    border: 2px solid #35353b;
+}
+
+#userUi #openServer:hover {
+    background-color: #35b640;
+}
+
+
+/*-------*/
+
+#userUi #downladApp {
+    background-color: #41414e;
+    border: 2px solid #35353b;
+}
+
+#userUi #downladApp:hover {
+    background-color: #35b640;
+}
+
+#userUi hr {
+    width: 2.5em;
+    margin-top: 1em;
+    margin-right: 1.5em;
+}
+
+
+/*---------------------TAG 2------------------------*/
+
+
+/*USER  LİST PERSON TAG 2 STYLE */
+
+.userLınk a {
+    text-decoration: none;
+}
+
+#userLıst {
+    background-color: #2f2f35;
+    border-radius: 0.25em;
+    margin-left: 5em;
+}
+
+.chatSearch form {
+    margin-left: 0.55em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.chatSearch input {
+    background-color: #15191f;
+    width: 16em;
+    height: 2em;
+    border: 2px solid #15191f;
+    color: #fff;
+}
+
+.chatSearch input::placeholder {
+    color: #fff;
+}
+
+
+/*freinds and nitro style */
+
+.friendsUi {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 85%;
+    margin-left: 0.65em;
+    border-radius: 0.45em;
+    margin-top: 1em;
+}
+
+.friendsUi:hover {
+    background-color: #30353d;
+}
+
+.friendsUi p {
+    color: #fff;
+    margin-left: 1em;
+    font-size: 14px;
+}
+
+.titlefrds a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.titlentr a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nitroUi {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 85%;
+    margin-left: 0.65em;
+    border-radius: 0.45em;
+    margin-top: 0.25em;
+    opacity: 0.6;
+}
+
+.nitroUi:hover {
+    background-color: #30353d;
+    opacity: 1;
+}
+
+.nitroUi p {
+    color: #fff;
+    margin-left: 1em;
+    font-size: 14px;
+}
+
+.directMsg {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    margin-top: 0.25em;
+    opacity: 0.6;
+}
+
+.directMsg:hover {
+    opacity: 1;
+}
+
+.directMsg img {
+    margin-left: 4em;
+    margin-top: 0.65em;
+    width: 1em;
+}
+
+.directMsg p {
+    margin-left: 1em;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/* DİRECT MESSAGE USER  STYLE  */
+
+.linkFrds a {
+    text-decoration: none;
+}
+
+.userLınk a {
+    text-decoration: none;
+}
+
+
+/*USER STYLE */
+
+
+/*user1 style */
+
+#user1 {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 85%;
+    margin-left: 0.65em;
+    border-radius: 0.45em;
+    margin-top: 0.25em;
+    opacity: 0.7;
+}
+
+#user1 button {
+    background-color: rgb(255, 199, 199);
+    border: 2px solid rgb(255, 199, 199);
+    opacity: 1;
+    color: #000000;
+}
+
+#user1:hover {
+    background-color: #30353d;
+    opacity: 1;
+}
+
+.ppUser {
+    display: flex;
+}
+
+.ppUser p {
+    font-size: 11px;
+    color: #fff;
+    margin-left: 1em;
+    padding-top: 2em;
+}
+
+.ppUser button {
+    border-radius: 4em;
+    width: 3.5em;
+    height: 3em;
+    display: block;
+    margin-top: 1.2em;
+    background-color: #194fff;
+    margin-bottom: 1em;
+}
+
+.ppUser button:hover {
+    border-radius: 1.5em;
+}
+
+#user2 {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 85%;
+    margin-left: 0.65em;
+    border-radius: 0.45em;
+    margin-top: 0.25em;
+    background-color: #30353d;
+    opacity: 1;
+}
+
+#user2 button {
+    background-color: #ff1818;
+    border: 2px solid #ff1818;
+    opacity: 1;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+
+/*user3 style*/
+
+#user3 {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 85%;
+    margin-left: 0.65em;
+    border-radius: 0.45em;
+    margin-top: 0.25em;
+    opacity: 0.7;
+}
+
+#user3 button {
+    background-color: #64649c;
+    border: 2px solid #64649c;
+    opacity: 1;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+#user3:hover {
+    background-color: #30353d;
+    opacity: 1;
+}
+
+
+/*user4 style*/
+
+#user4 {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 85%;
+    margin-left: 0.65em;
+    border-radius: 0.45em;
+    margin-top: 0.25em;
+    opacity: 0.7;
+}
+
+#user4 button {
+    background-color: #c201c2;
+    border: 2px solid #c201c2;
+    opacity: 1;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+#user4:hover {
+    background-color: #30353d;
+    opacity: 1;
+}
+
+
+/*profile ui bottom tag style  */
+
+#profıleUi {
+    display: flex;
+    position: fixed;
+    height: 3.5em;
+    background-color: #1e232c;
+    margin-top: 21em;
+}
+
+#profıleUi #ppImg {
+    background-color: #343d4d;
+    border: 2px solid #343d4d;
+    opacity: 0.8;
+    color: #fff;
+    margin-top: 0.34em;
+}
+
+#profıleUi #ppImg:hover {
+    opacity: 1;
+}
+
+#profıleUi button {
+    border-radius: 3em;
+    width: 3em;
+    height: 3em;
+    margin-left: 0.35em;
+}
+
+#profıleName p {
+    color: #fff;
+    margin-left: 1em;
+    font-size: 12px;
+}
+
+.name1 {
+    margin-bottom: 2px;
+}
+
+.code1 {
+    margin-top: 2px;
+}
+
+#setUser {
+    display: flex;
+    margin-left: 2.5em;
+    margin-top: 1em;
+}
+
+.micIcon {
+    margin-right: 1em;
+}
+
+.settıngIcon {
+    margin-left: 1em;
+    padding-right: 1em;
+}
+
+
+/*vertical line style */
+
+#verticalLine hr {
+    position: fixed;
+    height: 58.5em;
+    margin-left: 21.5em;
+    opacity: 0.3;
+}
+
+
+/*person page style */
+
+#personMsg {
+    margin-left: 22em;
+}
+
+#profıleSly {
+    display: flex;
+    position: fixed;
+    background-color: #292b30;
+    width: 100%;
+    height: 3.5em;
+}
+
+.namePrf {
+    display: flex;
+}
+
+.namePrf h2 {
+    opacity: 0.5;
+    color: #fff;
+    margin-left: 2em;
+}
+
+.namePrf p {
+    margin-left: 12px;
+    margin-top: 1.7em;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+.RgtIcon {
+    margin-left: 58.2em;
+    margin-top: 0.3em;
+}
+
+.RgtIcon ul {
+    display: flex;
+}
+
+.RgtIcon ul li {
+    list-style: none;
+    margin-left: 1em;
+}
+
+.inputSrch {
+    width: 10em;
+    height: 1.5em;
+    border: 1px solid #15191f;
+    border-radius: 0.35em;
+    background-color: #15191f;
+    color: #fff;
+}
+
+.inputSrch::placeholder {
+    color: #fff;
+}
+
+.videoIcon {
+    opacity: 0.3;
+}
+
+#verticalLine2 hr {
+    position: fixed;
+    margin-top: 3.7em;
+    width: 100%;
+    color: #fff;
+    opacity: 0.2;
+}
+
+#rghtPage {
+    margin-left: 0.15em;
+    margin-top: 0px;
+    margin-top: 4em;
+    width: 100%;
+    background-color: #3a3c42;
+    height: 100%;
+}
+
+#personMsg {
+    display: flex;
+}
+
+#infosprf p {
+    color: #f2f3f2f3;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 2em;
+}
+
+
+/*ui writing MESSAGE STYLE */
+
+#rgtUis {
+    margin-top: 54em;
+    padding-right: 1.6em;
+    position: fixed;
+    border-radius: 0.55em;
+    background-color: #494b52;
+    padding-bottom: 1.6em;
+    padding-top: 0.25em;
+}
+
+.uiMsgWrt input {
+    width: 93em;
+    margin-top: 0.55em;
+    margin-left: 0.55em;
+    height: 3em;
+    border-radius: 0.55em;
+    background-color: #292b30;
+    color: #fff;
+    font-size: 16px;
+}
+
+.msg {
+    padding-left: 42px;
+    background: url("../img/ui-Img/add.png") no-repeat left;
+    background-size: 28px;
+}

@@ -1,0 +1,809 @@
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+
+/*first top bar sytle logo and ınfos */
+
+#topBlog {
+    height: 32em;
+    background-color: #404eed;
+}
+
+#firstBar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.rghtInfs {
+    float: right;
+}
+
+.rghtInfs ul {
+    display: flex;
+    margin-left: 52em;
+}
+
+.rghtInfs ul li {
+    list-style: none;
+    margin-right: 2em;
+}
+
+.rghtInfs ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #ffffff;
+    font-family: 'Ginto Nord', sans-serif;
+}
+
+.rghtInfs ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+/*firs img style*/
+
+.blogFrsImg {
+    margin-left: 18em;
+    margin-top: 6em;
+}
+
+
+/*İmages And Infos Style */
+
+#comingDcAll {
+    margin-top: 16em;
+    height: 42em;
+}
+
+#comingDcAll h1 {
+    font-size: 52px;
+    margin-top: 0px;
+    margin-left: 6em;
+}
+
+#comingDcAll h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#comingDcAll h1 a:hover {
+    color: #404eed;
+}
+
+#comingDcAll h4 {
+    color: #404eed;
+    margin-bottom: 12px;
+    margin-left: 0.65em;
+}
+
+#comingDcAll p {
+    color: #404eed;
+    margin-bottom: 12px;
+    margin-left: 20em;
+}
+
+
+/*---------TAGBAR INFOS CMNG STYLE 1 -------------*/
+
+#tagBarImg1 {
+    margin-top: 6em;
+    display: flex;
+    margin-right: 12em;
+    margin-left: 21em;
+}
+
+.cmngdc {
+    margin-right: 3em;
+}
+
+.cmngdc:hover {
+    color: #404eed;
+}
+
+.cmngdc h3 {
+    font-size: 21px;
+    padding-left: 0.55em;
+}
+
+.cmngdc h4 {
+    font-size: 18px;
+}
+
+
+/*---------TAGBAR INFOS CMNG STYLE 2 -------------*/
+
+#tagBarImg2 {
+    margin-top: 6em;
+    display: flex;
+    margin-right: 12em;
+    margin-left: 21em;
+}
+
+
+/*---------TAGBAR INFOS CMNG STYLE 3 -------------*/
+
+#tagBarImg3 {
+    margin-top: 6em;
+    display: flex;
+    margin-right: 12em;
+    margin-left: 21em;
+}
+
+
+/*----------------------------------START COME DC STYLE--------------------------*/
+
+
+/*Product & Features*/
+
+#prdctSly {
+    height: 42em;
+    background-color: #f2f3f2f3;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 4em;
+    border-radius: 3em;
+}
+
+#productAll {
+    display: flex;
+}
+
+#titleprdBar {
+    margin-left: 8em;
+}
+
+#titleprdBar h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#titleprdBar h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    color: #404eed;
+}
+
+#titleprdBar button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: 2px solid #0077ff;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#titleprdBar button:hover {
+    opacity: 1;
+}
+
+#rightprdBar {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+#btmInfos {
+    display: flex;
+}
+
+#topInfos h3 {
+    opacity: 0.8;
+    margin-bottom: 3em;
+}
+
+#topInfos h3:hover {
+    color: #404eed;
+}
+
+#btmInfos .rigthbtm a {
+    text-decoration: none;
+}
+
+#btmInfos .rigthbtm h4:hover {
+    color: #404eed;
+}
+
+#btmInfos .rigthbtm h4 {
+    color: #000000;
+}
+
+
+/* Community */
+
+#communıtySly {
+    height: 45em;
+    background-color: #f2f3f2f3;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 4em;
+    border-radius: 3em;
+}
+
+#communityAll {
+    display: flex;
+}
+
+#titleBarCm {
+    margin-left: 8em;
+}
+
+#titleBarCm h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#titleBarCm h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    color: #404eed;
+}
+
+#titleBarCm button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: 2px solid #0077ff;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#titleBarCm button:hover {
+    opacity: 1;
+}
+
+#rightprdBarCom {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+#btmInfosCom {
+    display: flex;
+}
+
+#btmInfosCom {
+    margin-left: 1em;
+}
+
+#topInfosCom h3 {
+    opacity: 0.8;
+    margin-bottom: 3em;
+}
+
+#topInfosCom h3:hover {
+    color: #404eed;
+}
+
+.rigthbtmCom {
+    margin-right: 3em;
+    padding-top: 2em;
+}
+
+#btmInfosCom .rigthbtmCom a {
+    text-decoration: none;
+}
+
+#btmInfosCom .rigthbtmCom h4:hover {
+    color: #404eed;
+}
+
+#btmInfosCom .rigthbtmCom h4 {
+    color: #000000;
+}
+
+
+/*Resources & Education*/
+
+#educationSly {
+    height: 46em;
+    background-color: #f2f3f2f3;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 4em;
+    border-radius: 3em;
+}
+
+#educationAll {
+    display: flex;
+}
+
+#titleBarEd {
+    margin-left: 8em;
+}
+
+#titleBarEd h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#titleBarEd h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    color: #404eed;
+}
+
+#titleBarEd button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: 2px solid #0077ff;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#titleBarEd button:hover {
+    opacity: 1;
+}
+
+#rightprdBarEd {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+#btmInfosEd {
+    display: flex;
+}
+
+#btmInfosEd {
+    margin-left: 1em;
+}
+
+#topInfosEd h3 {
+    opacity: 0.8;
+    margin-bottom: 3em;
+}
+
+#topInfosEd h3:hover {
+    color: #404eed;
+}
+
+.rigthbtmEdu {
+    margin-right: 2.5em;
+    padding-top: 2em;
+}
+
+#btmInfosEd .rigthbtmEdu a {
+    text-decoration: none;
+}
+
+#btmInfosEd .rigthbtmEdu h4:hover {
+    color: #404eed;
+}
+
+#btmInfosEd .rigthbtmEdu h4 {
+    color: #000000;
+}
+
+
+/*Discord HQ*/
+
+#dcHqSly {
+    height: 44em;
+    background-color: #f2f3f2f3;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 4em;
+    border-radius: 3em;
+}
+
+#dcHqAll {
+    display: flex;
+}
+
+#titleBarHq {
+    margin-left: 8em;
+}
+
+#titleBarHq h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#titleBarHq h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    color: #404eed;
+}
+
+#titleBarHq button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: 2px solid #0077ff;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#titleBarHq button:hover {
+    opacity: 1;
+}
+
+#rightprdBarHq {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+#topInfosHq h3 {
+    opacity: 0.8;
+    margin-bottom: 3em;
+}
+
+#topInfosHq h3:hover {
+    color: #404eed;
+}
+
+#btmInfosHq {
+    display: flex;
+}
+
+#btmInfosHq {
+    margin-left: 1em;
+}
+
+.rigthbtmHq img {
+    padding-left: 2em;
+}
+
+.rigthbtmHq {
+    padding-top: 2em;
+}
+
+#btmInfosHq .rigthbtmHq a {
+    text-decoration: none;
+}
+
+#btmInfosHq .rigthbtmHq h4:hover {
+    color: #404eed;
+}
+
+#btmInfosHq .rigthbtmHq h4 {
+    color: #000000;
+}
+
+
+/*Policy & Safety*/
+
+#safetySly {
+    height: 42em;
+    background-color: #f2f3f2f3;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 4em;
+    border-radius: 3em;
+}
+
+#flexBar {
+    display: flex;
+    margin-left: 8em;
+}
+
+#rghtBar1 {
+    display: flex;
+}
+
+#rghtBar2 {
+    display: flex;
+}
+
+#safetyLft h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#safetyRght {
+    margin-left: 4em;
+}
+
+#safetyRght .titleAndImg {
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#safetyLft h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    color: #404eed;
+}
+
+#safetyLft button:hover {
+    opacity: 1;
+}
+
+#safetyLft button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: 2px solid #0077ff;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#safetyRght .titleAndImg a {
+    text-decoration: none;
+}
+
+#safetyRght .titleAndImg h4:hover {
+    color: #404eed;
+}
+
+#safetyRght .titleAndImg h4 {
+    color: #000000;
+}
+
+
+/*Engineering & Design*/
+
+#designSfl {
+    height: 42em;
+    background-color: #f2f3f2f3;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 4em;
+    border-radius: 3em;
+    margin-bottom: 4em;
+}
+
+#flexDesignBar {
+    display: flex;
+    margin-left: 8em;
+}
+
+#rghtBardesign1 {
+    display: flex;
+}
+
+#rghtBardesign2 {
+    display: flex;
+}
+
+#designLft h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#designRght {
+    margin-left: 4em;
+}
+
+#designRght .titleAndImg {
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#safetyLft h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    color: #404eed;
+}
+
+#designLft button:hover {
+    opacity: 1;
+}
+
+#designLft button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: 2px solid #0077ff;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#designRght .titleAndImg a {
+    text-decoration: none;
+}
+
+#designRght .titleAndImg h4:hover {
+    color: #404eed;
+}
+
+#designRght .titleAndImg h4 {
+    color: #000000;
+}
+
+
+/*<------bottom end bar style -------->*/
+
+
+/* bottom end tag style */
+
+#bottomTag {
+    height: 32em;
+    background-color: #353535;
+    display: flex;
+}
+
+
+/*bottom tag end style (1)*/
+
+.btmtag1 h3 {
+    margin-left: 12em;
+    padding-top: 2em;
+    font-size: 32px;
+    color: #0077ff;
+}
+
+
+/*option style */
+
+
+/*
+.btmtag1 select {
+    margin-left: 14em;
+    margin-right: 16em;
+    background-color: #353535;
+    border: 2px solid #353535;
+    font-size: 18px;
+    color: #ffffff;
+    width: 8em;
+}
+*/
+
+
+/*social network icon style */
+
+
+/*
+.socialNet {
+    display: flex;
+}
+*/
+
+
+/*bottom tag end style (2)*/
+
+.btmtag2 .prdct {
+    margin-left: 6em;
+    margin-top: 6em;
+}
+
+.prdct ul {
+    font-size: 15px;
+}
+
+.prdct ul li {
+    list-style: none;
+}
+
+.prdct ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.prdct ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.prdct .productStl {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (3)*/
+
+.btmtag3 .cpmnys {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.cpmnys ul {
+    font-size: 15px;
+}
+
+.cpmnys ul li {
+    list-style: none;
+}
+
+.cpmnys ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cpmnys ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.cpmnys .companystl {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (4)*/
+
+.btmtag4 .resources {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.resources ul {
+    font-size: 15px;
+}
+
+.resources ul li {
+    list-style: none;
+}
+
+.resources ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.resources ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.resources .resourcesle {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (5)*/
+
+.btmtag5 .policies {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.policies ul {
+    font-size: 15px;
+}
+
+.policies ul li {
+    list-style: none;
+}
+
+.policies ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.policies ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.policies .policiesle {
+    color: #0077ff;
+}
+
+
+/*--my info-- */
+
+#myInfo {
+    margin-left: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#myInfo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* end  css code :) */

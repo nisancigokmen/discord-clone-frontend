@@ -1,0 +1,524 @@
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+
+/*tag all top bar style */
+
+#tagAllBar {
+    background-color: #23272a;
+    height: 48em;
+}
+
+
+/*top logo style */
+
+#logoTag {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*logo images style */
+
+.logoImg {
+    margin-top: 1.5em;
+    margin-left: 21em;
+}
+
+
+/* logo top bar in the underline style  */
+
+.underlineTop {
+    margin-top: 1em;
+    margin-left: 6em;
+}
+
+
+/*underline list style */
+
+.underlineTop ul {
+    display: flex;
+}
+
+.underlineTop ul li {
+    list-style: none;
+    margin-right: 3.5em;
+}
+
+.underlineTop ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.underlineTop ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+/*open dc button*/
+
+.opnDcBtn #opDc {
+    margin-right: 18em;
+    margin-top: 1.5em;
+    background-color: #ffffff;
+    height: 2.5em;
+    width: 8em;
+    border-radius: 2em;
+    border: 2px solid #ffffff;
+}
+
+.opnDcBtn #opDc a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.opnDcBtn #opDc:hover {
+    color: #00345c;
+}
+
+
+/*title info style  (first title and paragraph)*/
+
+#infosFlex {
+    display: flex;
+}
+
+.titleMsg h3 {
+    font-size: 62px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', 'Inter', sans-serif;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+
+.rgbınfs p {
+    font-size: 19px;
+    opacity: 0.8;
+    color: #ffffff;
+    margin-left: 19.5em;
+}
+
+
+/*first right images style */
+
+#rihtImgfs img {
+    margin-left: 12em;
+    margin-top: 7em;
+}
+
+
+/*download  btn */
+
+#dwndcbtm {
+    display: flex;
+}
+
+#dwndcbtm p {
+    margin-top: 5.4em;
+    margin-left: 1em;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#dwndcbtm .dwndc {
+    margin-top: 3em;
+    margin-left: 20em;
+    width: 16em;
+    height: 3.5em;
+    font-size: 18px;
+    border-radius: 2em;
+    border: 2px solid #6250ff;
+    background-color: #6250ff;
+    color: #ffffff;
+}
+
+
+/*-------------------------*/
+
+
+/*device selection for download discord style */
+
+#selectionDevice {
+    height: 72em;
+    background-color: #ffffff;
+}
+
+
+/*flex in the  style */
+
+.flexStr {
+    display: flex;
+    margin-left: 12em;
+}
+
+.flexStrs {
+    display: flex;
+    margin-left: 12em;
+}
+
+
+/*download ios style */
+
+#iosDwnld {
+    width: 600px;
+    height: 700px;
+    background-color: #f2f3f2f3;
+    margin-top: 12em;
+    margin-left: 12em;
+}
+
+#iosDwnld h3 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 32px;
+}
+
+#iosDwnld .dwnSelectDc {
+    margin-left: 12em;
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 18px;
+    background-color: #23272a;
+    border: 2px solid #23272a;
+    color: #ffffff;
+}
+
+#iosDwnld img {
+    width: 45%;
+    margin-top: 3em;
+    margin-left: 10em;
+}
+
+
+/*download android style */
+
+#androidDwnld {
+    width: 600px;
+    height: 700px;
+    margin-top: 21em;
+    margin-left: 1em;
+    background-color: #f2f3f2f3;
+}
+
+#androidDwnld h3 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 32px;
+}
+
+#androidDwnld .dwnSelectDc {
+    margin-left: 12em;
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 18px;
+    background-color: #23272a;
+    border: 2px solid #23272a;
+    color: #ffffff;
+}
+
+#androidDwnld img {
+    width: 42%;
+    margin-top: 3em;
+    margin-left: 12em;
+}
+
+
+/*download windows style */
+
+#windowsDwnld {
+    width: 600px;
+    height: 700px;
+    background-color: #f2f3f2f3;
+    margin-top: 1em;
+    margin-left: 12em;
+}
+
+#windowsDwnld h3 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 32px;
+}
+
+#windowsDwnld .dwnSelectDc {
+    margin-left: 12em;
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 18px;
+    background-color: #23272a;
+    border: 2px solid #23272a;
+    color: #ffffff;
+}
+
+#windowsDwnld img {
+    width: auto;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+
+/*download mac style */
+
+#macDwnld {
+    width: 600px;
+    height: 700px;
+    margin-top: 10em;
+    margin-left: 1em;
+    background-color: #f2f3f2f3;
+}
+
+#macDwnld h3 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 32px;
+}
+
+#macDwnld .dwnSelectDc {
+    margin-left: 12em;
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 18px;
+    background-color: #23272a;
+    border: 2px solid #23272a;
+    color: #ffffff;
+}
+
+#macDwnld img {
+    width: auto;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+
+
+/* choosing a different download discord */
+
+#dfrnDwn {
+    width: 36em;
+    height: 18em;
+    background-color: #f2f3f2f3;
+    margin-left: 24em;
+}
+
+#dfrnDwn h3 {
+    font-size: 28px;
+    margin-left: 2em;
+    padding-top: 1em;
+}
+
+#dfrnDwn p {
+    font-size: 18px;
+    margin-left: 2em;
+}
+
+#dfrnDwn .dwnSelectDcs {
+    width: 16.5em;
+    height: 2.5em;
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: 21px;
+    background-color: #353535;
+    border: 2px solid #353535;
+    color: #ffffff;
+    border-radius: 2em;
+}
+
+
+/*dropdown ıcon */
+
+#dfrnDwn .dropdownIcon {
+    padding-left: 0.45em;
+}
+
+
+/*<------bottom end bar style -------->*/
+
+
+/* bottom end tag style */
+
+#bottomTag {
+    height: 32em;
+    background-color: #353535;
+    display: flex;
+    margin-top: 72em;
+}
+
+
+/*bottom tag end style (1)*/
+
+.btmtag1 h3 {
+    margin-left: 12em;
+    padding-top: 2em;
+    font-size: 32px;
+    color: #0077ff;
+}
+
+
+/*option style */
+
+
+/*
+.btmtag1 select {
+    margin-left: 14em;
+    margin-right: 16em;
+    background-color: #353535;
+    border: 2px solid #353535;
+    font-size: 18px;
+    color: #ffffff;
+    width: 8em;
+}
+*/
+
+
+/*social network icon style */
+
+
+/*
+.socialNet {
+    display: flex;
+}
+*/
+
+
+/*bottom tag end style (2)*/
+
+.btmtag2 .prdct {
+    margin-left: 6em;
+    margin-top: 6em;
+}
+
+.prdct ul {
+    font-size: 15px;
+}
+
+.prdct ul li {
+    list-style: none;
+}
+
+.prdct ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.prdct ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.prdct .productStl {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (3)*/
+
+.btmtag3 .cpmnys {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.cpmnys ul {
+    font-size: 15px;
+}
+
+.cpmnys ul li {
+    list-style: none;
+}
+
+.cpmnys ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cpmnys ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.cpmnys .companystl {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (4)*/
+
+.btmtag4 .resources {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.resources ul {
+    font-size: 15px;
+}
+
+.resources ul li {
+    list-style: none;
+}
+
+.resources ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.resources ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.resources .resourcesle {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (5)*/
+
+.btmtag5 .policies {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.policies ul {
+    font-size: 15px;
+}
+
+.policies ul li {
+    list-style: none;
+}
+
+.policies ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.policies ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.policies .policiesle {
+    color: #0077ff;
+}
+
+
+/*--my info-- */
+
+#myInfo {
+    margin-left: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#myInfo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* end  css code :) */

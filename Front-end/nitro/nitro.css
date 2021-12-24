@@ -1,0 +1,502 @@
+/*nitro first page style */
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+#nitroPage {
+    height: 42em;
+    background-color: #d773fff3;
+}
+
+
+/*logo  and underlıne lınk style */
+
+#logoTag {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    margin-left: 46em;
+}
+
+#underlıneInfo ul {
+    display: flex;
+}
+
+#underlıneInfo ul li {
+    list-style: none;
+    margin-right: 2em;
+}
+
+#underlıneInfo ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#underlıneInfo ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#btnOpen button {
+    width: 9em;
+    height: 3em;
+    border-radius: 3em;
+    background-color: #ffff;
+    border: 2px solid #ffff;
+}
+
+#btnOpen a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* First nitro ınfos page style */
+
+#flexNtr {
+    display: flex;
+}
+
+#firstPageNtr {
+    margin-left: 18em;
+    padding-top: 8em;
+}
+
+#titleNtr img {
+    margin-bottom: 0px;
+    margin-left: 3.5em;
+}
+
+#titleNtr h2 {
+    margin-top: 0px;
+    font-size: 76px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+#InfosNtr p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+#btnNtr {
+    display: flex;
+    margin-top: 3em;
+}
+
+.yearsPage button {
+    width: 18em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #36393f;
+    border: 2px solid #36393f;
+    color: #fff;
+    font-size: 18px;
+}
+
+.yearsPage button:hover {
+    -moz-box-shadow: 5px 5px 15px 3px #666;
+    -webkit-box-shadow: 5px 5px 15px 3px #666;
+    box-shadow: 5px 5px 15px 3px #666;
+}
+
+.yearsPage a {
+    text-decoration: none;
+}
+
+.monthPage button {
+    width: 14em;
+    height: 3em;
+    margin-left: 2em;
+    border-radius: 2em;
+    background-color: #36393f;
+    border: 2px solid #36393f;
+    font-size: 18px;
+    color: #fff;
+}
+
+.monthPage button:hover {
+    -moz-box-shadow: 5px 5px 15px 3px #666;
+    -webkit-box-shadow: 5px 5px 15px 3px #666;
+    box-shadow: 5px 5px 15px 3px #666;
+}
+
+.monthPage a {
+    text-decoration: none;
+}
+
+@keyframes images {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        left: 0px;
+        top: 42px;
+    }
+    50% {
+        left: 0px;
+        top: 42px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+#ntrRght img {
+    margin-left: 12em;
+    margin-top: 5em;
+    border-radius: 2em;
+    position: relative;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: images;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+/* Nitro Enhances Style */
+
+#ntrEnhances {
+    background-color: #fff;
+    padding-top: 12em;
+}
+
+#ntrEnhances h3 {
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Anton', sans-serif;
+}
+
+#ntrEnhances h4 {
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+/*fieldset 1 style */
+
+#ınfosNtr {
+    display: flex;
+    margin-left: 21em;
+    margin-top: 6em;
+}
+
+#ınfosNtr fieldset {
+    width: 24em;
+    height: 21em;
+    margin-left: 1em;
+}
+
+.menuNtr1 p {
+    text-align: center;
+    color: #fff;
+}
+
+.menuNtr1 img {
+    margin-top: 2em;
+    margin-left: 7em;
+}
+
+.menuNtr1 h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.menuNtr1 fieldset {
+    background: linear-gradient(142.53deg, #00a295, #26e8f4 98.75%), #3dcda7;
+    border: 2px solid #3dcda7;
+    border-radius: 1em;
+}
+
+
+/*fieldset 2 style */
+
+#ınfosNtr2 {
+    display: flex;
+    margin-left: 21em;
+    margin-top: 2em;
+}
+
+#ınfosNtr2 fieldset {
+    width: 24em;
+    height: 21em;
+    margin-left: 1em;
+}
+
+.menuNtr2 p {
+    text-align: center;
+    color: #fff;
+}
+
+.menuNtr2 h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.menuNtr2 img {
+    margin-top: 2em;
+    margin-left: 7em;
+}
+
+.menuNtr2 fieldset {
+    background: linear-gradient(141.85deg, #7e7bff, #ff73fa);
+    border: 2px solid #ff73fa;
+    border-radius: 1em;
+}
+
+
+/*/*fieldset 3  style */
+
+.menuNtr3 p {
+    text-align: center;
+    color: #fff;
+}
+
+.menuNtr3 h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.menuNtr3 img {
+    margin-top: 2em;
+    margin-left: 7em;
+}
+
+.menuNtr3 fieldset {
+    background: linear-gradient(321.73deg, #ffcd4b -1.09%, #ee6315 100.65%);
+    border: 2px solid #ee6315;
+    border-radius: 1em;
+}
+
+
+/*btn tag */
+
+#ntrBtm h3 {
+    padding-top: 4em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+.ntrBtmBtn {
+    display: flex;
+    margin-left: 36em;
+}
+
+.ntrBtmBtn button {
+    width: 21em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: #36393f;
+    border: 2px solid #36393f;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.ntrBtmBtn button:hover {
+    -moz-box-shadow: 5px 5px 15px 3px #666;
+    -webkit-box-shadow: 5px 5px 15px 3px #666;
+    box-shadow: 5px 5px 15px 3px #666;
+    opacity: 0.9;
+}
+
+
+/* end tag nitro anımation*/
+
+#endTagNtr {
+    background-color: #5865f2;
+    margin-top: 8em;
+    height: 42em;
+}
+
+
+/*<------bottom end bar style -------->*/
+
+
+/* bottom end tag style */
+
+#bottomTag {
+    height: 32em;
+    background-color: #353535;
+    display: flex;
+}
+
+
+/*bottom tag end style (1)*/
+
+.btmtag1 h3 {
+    margin-left: 12em;
+    padding-top: 2em;
+    font-size: 32px;
+    color: #0077ff;
+}
+
+
+/*option style */
+
+
+/*
+.btmtag1 select {
+    margin-left: 14em;
+    margin-right: 16em;
+    background-color: #353535;
+    border: 2px solid #353535;
+    font-size: 18px;
+    color: #ffffff;
+    width: 8em;
+}
+*/
+
+
+/*social network icon style */
+
+
+/*
+.socialNet {
+    display: flex;
+}
+*/
+
+
+/*bottom tag end style (2)*/
+
+.btmtag2 .prdct {
+    margin-left: 6em;
+    margin-top: 6em;
+}
+
+.prdct ul {
+    font-size: 15px;
+}
+
+.prdct ul li {
+    list-style: none;
+}
+
+.prdct ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.prdct ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.prdct .productStl {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (3)*/
+
+.btmtag3 .cpmnys {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.cpmnys ul {
+    font-size: 15px;
+}
+
+.cpmnys ul li {
+    list-style: none;
+}
+
+.cpmnys ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cpmnys ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.cpmnys .companystl {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (4)*/
+
+.btmtag4 .resources {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.resources ul {
+    font-size: 15px;
+}
+
+.resources ul li {
+    list-style: none;
+}
+
+.resources ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.resources ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.resources .resourcesle {
+    color: #0077ff;
+}
+
+
+/*bottom tag end style (5)*/
+
+.btmtag5 .policies {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+
+.policies ul {
+    font-size: 15px;
+}
+
+.policies ul li {
+    list-style: none;
+}
+
+.policies ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.policies ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.policies .policiesle {
+    color: #0077ff;
+}
+
+
+/*--my info-- */
+
+#myInfo {
+    margin-left: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#myInfo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* end  css code :) */
