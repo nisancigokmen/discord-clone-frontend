@@ -4,7 +4,7 @@ body {
 }
 
 #topBar {
-    background-image: url("/img/backroundImg.jpeg");
+    background-image: url("/backroundImg.jpeg");
     height: 42em;
     background-repeat: no-repeat;
     background-size: 100% 100% cover;
