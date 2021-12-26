@@ -12,4 +12,8 @@ https://user-images.githubusercontent.com/91744618/147374404-98977f99-e400-4359-
 <a href = "http://www.gmail.com" > nisancigokmen@gmail.com</a> <br>
 <hr>
 
+
+
+
 &copy; Gökmen Nişancı / Web Developer.
+
