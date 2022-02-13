@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/91744618/147374404-98977f99-e400-4359-
    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=nisancigokmen@gmail.com"><img src="https://assets.webiconspng.com/uploads/2017/01/Mail-Amazing-PNG-Icon.png" width="72px"> </a> 
  
  </div>
- 
+
  <div id="tools">
  <h2> Languages and tools:  </h2><br>
  
@@ -26,7 +26,6 @@ https://user-images.githubusercontent.com/91744618/147374404-98977f99-e400-4359-
  
 </div><br>
 &copy; Gökmen Nişancı / Web Developer. <br><br>
-
 
 <img src= "https://media2.giphy.com/media/26FPJGjhefSJuaRhu/giphy.gif?cid=ecf05e47ht7frubj5utzcc4gkl8t45nhzl4nf1zlc1k8tb31&rid=giphy.gif&ct=g" width="460"  height ="320px">
   <br> <br>
