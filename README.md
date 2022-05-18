@@ -31,4 +31,4 @@ https://user-images.githubusercontent.com/91744618/147374404-98977f99-e400-4359-
 <img src= "https://media2.giphy.com/media/26FPJGjhefSJuaRhu/giphy.gif?cid=ecf05e47ht7frubj5utzcc4gkl8t45nhzl4nf1zlc1k8tb31&rid=giphy.gif&ct=g" width="460"  height ="320px">
   <br> <br>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&size=22&lines=Thanks+for+visiting)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2318f9ee&size=22&lines=Thanks+for+visiting)](https://git.io/typing-svg)
